@@ -1,0 +1,17 @@
+.product-nav ul{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+}
+.product-nav li{
+    display: inline-block;
+    margin:0 1em;
+}
+.product-nav img{
+    width:100px;
+    height:auto;
+}
+.product-nav .current {
+    border-bottom: 4px solid #000;
+    opacity: 0.5;
+}

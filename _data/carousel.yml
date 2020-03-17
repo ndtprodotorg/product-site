@@ -3,14 +3,11 @@ images:
     link: /products/EX35.html
     model: EX-35
     name: 超声探伤仪
-    meta: 超轻便携 超长待机
+    meta: 超轻便携 超长待机 </br>自动校准 单手探伤
     slogan: Nice Product
-  - image: http://dasndt.com/ossimg/20200316165816.png
-    link: http://dasndt.com/ossimg/20200316165816.png
-    title: sampleB
-  - image: http://dasndt.com/ossimg/20200316170620.png
-    link: http://ydndt.com/ossimg/屏幕快照 2020-02-19 下午3.16.01.png
-    title: sampleC
-  - image: http://dasndt.com/ossimg/20200316150231.png
-    link: http://dasndt.com/ossimg/20200316150231.png
-    title: sampleD
+  - image: http://dasndt.com/ossimg/kx360home.jpg
+    link: /products/KX360.html
+    model: KX360
+    name: 超声探伤仪
+    meta: 存储动态探伤屏幕录像 一键自动校准探头</br>内置多个探伤标准 满足多类行业使用
+    slogan: Nice Product

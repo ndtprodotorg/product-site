@@ -1,5 +1,28 @@
+.carousel-description{
+    float:right;
+    margin:10% 15%;
+}
 .carousel-model {
+    color: #444;
+    font-size: 5em;
+    font-weight: 600;
+}
+.carousel-description .carousel-name{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 300;
+}
+.carousel-description .carousel-meta {
+    margin:2em auto;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    font:"黑体"
+}
+.carousel-description .morebutton {
+    padding: 0.5em 1em;
+    background-color: #000;
+    cursor: pointer;
     color: #fff;
-    font-size: 40px;
-    
+    font-size: 18px;
 }

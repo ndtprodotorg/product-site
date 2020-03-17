@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<div class="product-nav">
+    <ul>
+        {% for product in site.pages%}
+            {% if product.category == 'products' %}
+            <a href="{{site.baseurl}}{{product.url}}">
+            <li class="{% if page.url contains product.model %}current{% endif %}">
+                <img src="{{product.featureImage}}" alt="">
+            </li>
+        </a>
+            {% endif %}
+        {% endfor %}
+    </ul>   
+</div>
+
 
 <div class="featureproduct {{page.model}}">
     <h1>{{page.model}}</h1>

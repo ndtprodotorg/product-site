@@ -28,7 +28,12 @@
           <ul>
             {% for item in site.data.carousel.images %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');">
-              <a class="carousel-model" href="{{site.baseurl}}{{item.link}}">{{item.model}}</a> 
+              <div class="carousel-description">
+                <a class="carousel-model" href="{{site.baseurl}}{{item.link}}">{{item.model}}</a>
+                <p class="carousel-name">{{item.name}}</p>
+                <p class="carousel-meta">{{item.meta}}</p>
+                   <a class="morebutton" href="{{site.baseurl}}{{item.link}}" type="button">详细介绍</a>
+              </div> 
             </li>
             {% endfor %}
           </ul>
