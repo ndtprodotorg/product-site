@@ -1,15 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
-{% for product in site.pages%}
-    {% if product.category == 'products' %}
-    <a href="{{site.baseurl}}{{product.url}}">
-        <div class="featureproduct {{product.model}}">
-            <h1>{{product.model}}</h1>
-            <h2>{{product.modelname}}</h2>
-            <img src="{{product.featureImage}}" alt="">
-        </div>
-    </a>
-    {% endif %}
-{% endfor %}
+{% include carousel.html height="45" unit="%" duration="7" %}

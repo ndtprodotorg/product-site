@@ -1,0 +1,16 @@
+images: 
+  - image: http://dasndt.com/ossimg/ex35.jpg
+    link: /products/EX35.html
+    model: EX-35
+    name: 超声探伤仪
+    meta: 超轻便携 超长待机
+    slogan: Nice Product
+  - image: http://dasndt.com/ossimg/20200316165816.png
+    link: http://dasndt.com/ossimg/20200316165816.png
+    title: sampleB
+  - image: http://dasndt.com/ossimg/20200316170620.png
+    link: http://ydndt.com/ossimg/屏幕快照 2020-02-19 下午3.16.01.png
+    title: sampleC
+  - image: http://dasndt.com/ossimg/20200316150231.png
+    link: http://dasndt.com/ossimg/20200316150231.png
+    title: sampleD
