@@ -1,0 +1,25 @@
+.homeContent {
+    text-align: left;
+    margin: 3em 2em;
+}
+.homeContent ul {
+    margin: 3em 0;
+}
+.homeContent li{
+    font-size: 1.2em;
+    margin: 1em 0.5em;
+}
+.homeContent table{
+    font-size: 1.2em;
+    margin: 1em 1em;
+}
+.homeContent thead th{
+    font-size: 24px;
+    width:auto;
+    border-bottom: 1px solid #ddd;
+}
+.homeContent tbody td{
+    height: 2em;
+    padding-right: 10em;
+    border-bottom: 1px solid #ddd;
+}
