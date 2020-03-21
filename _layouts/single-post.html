@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+<div class="postContainer">
+    <div class="postLeft">
+        {{content}}
+    </div>
+    <div class="postRight">
+        <ul>
+            {% for post in site.posts %}
+            {% if post.category =='tech'%}
+            <li class="{% if post.url contains post.title %}current{% endif %}">
+                <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+            </li>
+                {% endif %}
+                {% endfor %}
+        </ul>
+    </div>
+
+</div>

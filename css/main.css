@@ -6,4 +6,6 @@
 {% include_relative carousel-custom.css %}
 {% include_relative product-nav.css %}
 {% include_relative product-home-nav.css %}
+{% include_relative manual-toc.css %}
+{% include_relative post.css %}
 

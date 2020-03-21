@@ -1,0 +1,27 @@
+.postContainer {
+    padding: 1em 0;
+    text-align: center;
+}
+.postContainer .current a{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.postRight {
+    width: 30%;
+    float: right;
+    text-align: left;
+    border-left: 1px solid #eee;
+}
+.postRight ul{
+    list-style-type: none;
+}
+.postRight li a{
+    color: #777;
+    font-size: 14px;
+    line-height: 20px;
+}
+.postLeft{
+    width: 69%;
+    float: left;
+    text-align: left;
+}

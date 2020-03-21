@@ -1,0 +1,44 @@
+#markdown-toc {
+    width:25%;
+    display: block;
+    float: right;
+    margin: 2em 2em;
+    border: 1px solid #888;
+    padding: 1em 1em;
+    list-style-type: none;
+}
+#markdown-toc::before {
+    content:"目录";
+    font-size:22px;
+}
+#markdown-toc>li {
+    text-align:left;
+    padding-left:0;
+}
+#markdown-toc>li>a{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
+#markdown-toc li ol {
+    margin: 1em auto;
+    text-align: left;
+    padding: 0 0 0 1em; 
+    color: #888;
+    list-style-type: disc;
+}
+#markdown-toc li ol li{
+    margin: 0.5em auto;
+}
+#markdown-toc li ol li a {
+    color:#888;
+    line-height: 1.2em;
+}
+#markdown-toc li ol li a:hover {
+    color:#000;
+}
+#markdown-toc li ol li a:active {
+    color:#000;
+    text-decoration: underline;
+}

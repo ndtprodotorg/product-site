@@ -4,6 +4,6 @@ layout: manuals
 
 {% for manual in site.pages limit:1 %}
     {% if manual.category == 'manual' %}
-        {{manual.content }}
+        {{manual.content selectnode="current" }}
     {% endif %}
 {% endfor %}

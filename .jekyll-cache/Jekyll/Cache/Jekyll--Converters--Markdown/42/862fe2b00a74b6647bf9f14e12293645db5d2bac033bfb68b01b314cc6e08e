@@ -1,0 +1,689 @@
+I"��<h1 id="kx300930360使用说明">KX300/930/360使用说明</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#kx300930360使用说明" id="markdown-toc-kx300930360使用说明">KX300/930/360使用说明</a>    <ol>
+      <li><a href="#安全须知" id="markdown-toc-安全须知">安全须知</a></li>
+      <li><a href="#注意事项" id="markdown-toc-注意事项">注意事项</a></li>
+      <li><a href="#仪器各部件" id="markdown-toc-仪器各部件">仪器各部件</a></li>
+      <li><a href="#如何装卸电池" id="markdown-toc-如何装卸电池">如何装卸电池</a></li>
+      <li><a href="#屏幕显示内容" id="markdown-toc-屏幕显示内容">屏幕显示内容</a></li>
+      <li><a href="#按键操作方法" id="markdown-toc-按键操作方法">按键操作方法</a></li>
+      <li><a href="#接口操作方法" id="markdown-toc-接口操作方法">接口操作方法</a></li>
+      <li><a href="#通道的选择" id="markdown-toc-通道的选择">通道的选择</a></li>
+      <li><a href="#探头设置" id="markdown-toc-探头设置">探头设置</a></li>
+      <li><a href="#增益调节" id="markdown-toc-增益调节">增益调节</a></li>
+      <li><a href="#闸门调节" id="markdown-toc-闸门调节">闸门调节</a></li>
+      <li><a href="#声程位移调节" id="markdown-toc-声程位移调节">声程位移调节</a></li>
+      <li><a href="#曲线制作" id="markdown-toc-曲线制作">曲线制作</a></li>
+      <li><a href="#响应速度调节" id="markdown-toc-响应速度调节">响应速度调节</a></li>
+      <li><a href="#抑制调节" id="markdown-toc-抑制调节">抑制调节</a></li>
+      <li><a href="#直探头校准" id="markdown-toc-直探头校准">直探头校准</a></li>
+      <li><a href="#avg曲线制作" id="markdown-toc-avg曲线制作">AVG曲线制作</a></li>
+      <li><a href="#斜探头校准" id="markdown-toc-斜探头校准">斜探头校准</a></li>
+      <li><a href="#dac曲线制作" id="markdown-toc-dac曲线制作">DAC曲线制作</a></li>
+      <li><a href="#标准调用" id="markdown-toc-标准调用">标准调用</a></li>
+      <li><a href="#aws-d11焊缝等级评估模式" id="markdown-toc-aws-d11焊缝等级评估模式">AWS D1.1焊缝等级评估模式</a></li>
+      <li><a href="#伤波记录" id="markdown-toc-伤波记录">伤波记录</a></li>
+      <li><a href="#记录调取与操作" id="markdown-toc-记录调取与操作">记录调取与操作</a></li>
+      <li><a href="#蜂鸣报警与闸门展宽" id="markdown-toc-蜂鸣报警与闸门展宽">蜂鸣报警与闸门展宽</a></li>
+      <li><a href="#曲面修正" id="markdown-toc-曲面修正">曲面修正</a></li>
+      <li><a href="#射频检测" id="markdown-toc-射频检测">射频检测</a></li>
+      <li><a href="#波形填充" id="markdown-toc-波形填充">波形填充</a></li>
+      <li><a href="#峰值记忆" id="markdown-toc-峰值记忆">峰值记忆</a></li>
+      <li><a href="#系统设置" id="markdown-toc-系统设置">系统设置</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="安全须知">安全须知</h2>
+<hr />
+<p>为了避免仪器的损坏或伤及自己或他人，在使用本仪器之前，请仔细阅读下列安全指示。并将这些安全指示放在每个使用本仪器的人都能看得到的地方。</p>
+
+<p><strong>不要在有易燃性气体的地方使用</strong></p>
+
+<p>不要在有易燃性气体的地方使用电子设备，否则易产生导致爆炸或失火的危险。</p>
+
+<p><strong>请勿拆卸</strong></p>
+
+<p>触摸仪器内部零件，可能会造成损坏。仪器故障时，只可将仪器交由受训合格的技师来作检修。若因仪器摔落或其它意外而造成破裂或解体时，应立即与南通中友电子科技有限公司的授权经销商或服务中心取得联系。</p>
+
+<p><strong>使用电池工作时注意</strong></p>
+
+<p>本仪器采用内部封装锂离子电池组作为主要电源，使用仪器不当可能会导致内部电池的泄漏或爆炸。在使用本仪器时应该注意下列事项：</p>
+
+<ul>
+  <li>在插上充电器前必须关闭仪器，并确保仪器指示灯已经熄灭。</li>
+  <li>请使用厂家指定的原装充电器充电，使用不同规格的充电器可能会导致产生泄漏或爆炸。</li>
+  <li>请勿擅自拆卸或改装仪器及其零部件。</li>
+  <li>不要让仪器浸入水中。</li>
+  <li>完全放电的电池容易泄漏，为了避免仪器受损，如长时间不使用仪器，请保持定期充放电。</li>
+  <li>在仪器长时间使用后，仪器后部的发热是由电池变热引起的，属于正常现象。</li>
+</ul>
+
+<p><strong>使用适当的探头线</strong></p>
+
+<p>不合格的探头线引发的短路可能会造成仪器电路故障，甚至烧坏仪器。</p>
+
+<p><strong>远离儿童</strong></p>
+
+<p>避免儿童将探头放进嘴里或将探头线缠绕脖子，这种情形会给您带来很大的麻烦。</p>
+
+<p><strong>避免硬物接触显示屏</strong></p>
+
+<p>硬物与显示屏接触划伤显示屏，会给使用带来不便。</p>
+
+<h2 id="注意事项">注意事项</h2>
+<hr />
+
+<p>为了保证您购买的产品能给您带来长久的使用期限，在存放或使用仪器时应遵守以下注意事项：</p>
+
+<p><strong>保持干燥</strong></p>
+
+<p>如果仪器浸水或严重受潮，则仪器将受到损坏。</p>
+
+<p><strong>切勿跌落</strong></p>
+
+<p>如果仪器受到强力打击或振动，则有可能会产生故障。</p>
+
+<p><strong>远离强磁场</strong></p>
+
+<p>切勿在产生电磁辐射或磁场的设备附近使用或存放仪器。无线电发射装置等设备产生的强静电荷或磁场会干扰监视器，损坏保存在仪器中的数据，或影响仪器的内部电路。</p>
+
+<p><strong>避免温度骤变</strong></p>
+
+<p>温度骤变，如在冬天进入或离开有暖气的大楼，会造成仪器内部产生冷凝现象。为防止出现冷凝现象，在将仪器暴露在温度骤变的环境中之前，请将仪器装入仪器包（选购件）或塑料袋中。</p>
+
+<p><strong>远离高温</strong></p>
+
+<p>高温可能会使电池产生膨胀、泄漏甚至爆炸。请远离火源等高温场合。</p>
+
+<h2 id="仪器各部件">仪器各部件</h2>
+<hr />
+
+<p><img src="http://dasndt.com/ossimg/20200321172554.png" alt="" />
+<img src="http://dasndt.com/ossimg/20200321172700.png" alt="" />
+<img src="http://dasndt.com/ossimg/20200321174013.png" alt="" /></p>
+
+<h2 id="如何装卸电池">如何装卸电池</h2>
+<hr />
+
+<ul>
+  <li>拧下电池盖板上的螺丝。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321174213.png" alt="" /></p>
+
+<ul>
+  <li>将支撑杆抬起。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321174304.png" alt="" /></p>
+
+<ul>
+  <li>将电池盖板向后推出。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321174401.png" alt="" /></p>
+
+<ul>
+  <li>从后端向上取出电池</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321174554.png" alt="" /></p>
+
+<h2 id="屏幕显示内容">屏幕显示内容</h2>
+<hr />
+
+<ul>
+  <li>探伤状态</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321174833.png" alt="" /></p>
+
+<ul>
+  <li>调节状态</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321174755.png" alt="" /></p>
+
+<h2 id="按键操作方法">按键操作方法</h2>
+<hr />
+
+<ul>
+  <li>电源按钮</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175006.png" alt="" /></p>
+
+<ul>
+  <li>多功能旋钮</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175055.png" alt="" /></p>
+
+<ul>
+  <li>确认&amp;返回键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175155.png" alt="" /></p>
+
+<ul>
+  <li>增益键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175249.png" alt="" /></p>
+
+<ul>
+  <li>闸门键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175531.png" alt="" /></p>
+
+<ul>
+  <li>声程/位移键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175557.png" alt="" /></p>
+
+<ul>
+  <li>自动增益/自动校准键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175729.png" alt="" /></p>
+
+<ul>
+  <li>冻结键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175759.png" alt="" /></p>
+
+<ul>
+  <li>记录键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175827.png" alt="" /></p>
+
+<ul>
+  <li>峰值键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175852.png" alt="" /></p>
+
+<ul>
+  <li>DAC/AVG快捷键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175918.png" alt="" /></p>
+
+<ul>
+  <li>记录回放键</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321175945.png" alt="" /></p>
+
+<h2 id="接口操作方法">接口操作方法</h2>
+<hr />
+
+<ul>
+  <li>接口分布</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321180041.png" alt="" /></p>
+
+<ul>
+  <li>接口规格及用法解释</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321180128.png" alt="" /></p>
+
+<h2 id="通道的选择">通道的选择</h2>
+<hr />
+
+<p>由于在现场探伤时需要对多种工件进行探伤，或者在探伤过程中要更换探头，在这些情况下就需要重新对仪器进行校准，因此为了现场探伤的方便，仪器提供了20个独立的探伤通道，用户可事先将多种现场需要用到的设置调节好并分别存储到不同的通道中，在现场时就可以直接切换到相应的通道中调用这些设置。</p>
+
+<blockquote>
+  <p>按下旋钮调出菜单-&gt;转动旋钮至『<code class="highlighter-rouge">设置</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">设置</code>菜单-&gt;按下旋钮进入『<code class="highlighter-rouge">通道选择</code>-&gt;转动旋钮在<code class="highlighter-rouge">CHO1</code>至<code class="highlighter-rouge">CH20</code>之间切換通道&gt;按下旋钮确认进入所选通道。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321180824.png" alt="" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>当前使用通道号前有“*”星号加以提示，如果需要对当时使用通道进行重新设置，可对当前通道进行“通道删除”操作。
+</code></pre></div></div>
+
+<blockquote>
+  <p>按下旋钮调出菜单-&gt;转动旋钮至<code class="highlighter-rouge">设置</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">设置</code>菜单-&gt;转动旋钮至<code class="highlighter-rouge">通道删除</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">通道删除</code>-&gt;屏幕下方出现删除提示-&gt;确认删除选<code class="highlighter-rouge">是</code>，反之选<code class="highlighter-rouge">否</code></p>
+</blockquote>
+
+<h2 id="探头设置">探头设置</h2>
+<hr />
+
+<blockquote>
+  <p>按下旋钮调出菜单-&gt;转动旋钮至<code class="highlighter-rouge">探头</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">探头菜单</code>对探头类型、探头频率、晶片尺寸、探头角度、探头K值、探头零点、探头前沿设置。</p>
+</blockquote>
+
+<p><strong>单直/双直</strong></p>
+
+<ul>
+  <li>
+    <p><strong>探头频率</strong>：将探头频率设置为探头上标称的频率。</p>
+  </li>
+  <li>
+    <p><strong>晶片尺寸</strong>：将晶片尺寸φ10m设置为探头上标称的探头晶片直径。</p>
+  </li>
+  <li>
+    <p><strong>探头零点</strong>：将探头放置于CSK-1A上，在保证耦合良好的情况下，将试块高度100m的反射波高调到80%，调节探头零点使屏幕上方显示垂直距离为100m即可完成直探头零点设置。</p>
+  </li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321182934.png" alt="" /></p>
+
+<p><strong>单斜/双斜</strong></p>
+
+<ul>
+  <li>
+    <p><strong>探头频率</strong>：将探头频率设置为探头上标称的频率。</p>
+  </li>
+  <li>
+    <p><strong>晶片尺寸</strong>：将晶片尺寸10*10m设置为探头上标称的探头晶片直径。</p>
+  </li>
+  <li>
+    <p><strong>探头零点</strong>：将探头放置于CSK-1A上，在保证耦合良好的情况下，将R100m的反射波高调到80%，调节探头零点使屏幕上方显示垂直距离为100m即可完成斜探头零点设置。</p>
+  </li>
+  <li>
+    <p><strong>探头前沿</strong>：在完成探头零点设置的前提下，保证探头在试块上的位置不变，用直尺量出探头前端至试块R100圆弧边缘的距离L，探头前沿测为(100-L)m。</p>
+  </li>
+  <li>
+    <p><strong>探头角度</strong>：将试块翻转，将探头对准CSK-1A上直径为φ1.5mm长横孔，提高增益，找出该孔的最高反射波，调节探头角度或探头K值，直至将屏幕上方显示的孔的垂直距离调为15mm</p>
+  </li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321183047.png" alt="" /></p>
+
+<h2 id="增益调节">增益调节</h2>
+<hr />
+
+<p>为了提高工作效率，仪器提供两种增益调节的方法：快速调节法和微调法。快速调节法主要用于在探伤工作过程中进行増益快速调节而无须调出主菜单；微调法用于在仪器和探头组合校测的过程中对増益、増益步距、补偿増益、自动增益进行精确调节。</p>
+
+<blockquote>
+  <p><strong>快速调节法</strong></p>
+
+  <p>在探伤状态下，按<code class="highlighter-rouge">增益</code>键配合旋钮转动快速对增益进行调节。</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>微调法</strong></p>
+
+  <p>在调节状态下，按下旋钮弹出<code class="highlighter-rouge">增益</code>菜单，再次按下旋钮进入<code class="highlighter-rouge">增益</code>菜单，转动旋钮可自由调节增益大小、增益步距、补偿増益、自动增益。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321183527.png" alt="" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>增益菜单中的“自动增益”用来自定义波幅高度百分比，键盘面板上的“自动增益”键是用来自动调节增益将波高调节到用户自定义的波幅高度百分比。
+</code></pre></div></div>
+
+<h2 id="闸门调节">闸门调节</h2>
+<hr />
+
+<p>闸门是数字超声探伤仪最重要的组成部分。本仪器给用户提供了两个闸门：A闸门和B闸门。通过对这两个闸门的调节，用户可以快速地对仪器进行设置、对缺陷进行精确的定位和定量。</p>
+
+<p><strong>A闸门调节</strong></p>
+
+<p>A闸门是本仪器的主要闸门，在屏幕上显示为红色。A闸门能完成对缺陷的定位和定量操作，用户通过控制A闸门在屏幕上所处的位置可以对不同的反射波反映的缺陷进行定位和定量。A闸门同样具备两种调节方法：快速调节法和微调法。</p>
+
+<blockquote>
+  <p><strong>A闸门快速调节法</strong></p>
+
+  <p>在探伤状态下，按下一次按键面板上的<code class="highlighter-rouge">闸门</code>键，可以对A闸门的左右位置快递调节；连续按下两次<code class="highlighter-rouge">闸门</code>键，可以对A间门的宽度进行快速调节；连续按下三次<code class="highlighter-rouge">闸门</code>键，可以对A闸门的上下位置进行快速调节。</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>A闸门微调法</strong></p>
+
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">闸门</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">闸门</code>菜单-&gt;转动旋钮对<code class="highlighter-rouge">A门移位</code>、<code class="highlighter-rouge">A门宽度</code>、<code class="highlighter-rouge">A门高度</code>进行微调。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321184721.png" alt="" /></p>
+
+<p><strong>B闸门调节</strong></p>
+
+<p>B间门是本仪器的辅助闸门，默认状态是关闭，开启后在屏幕上显示为蓝色。本仪器中的B闸门的主要作用是辅助自动校测。</p>
+
+<blockquote>
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">闸门</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">闸门</code>菜单-&gt;转动旋钮至<code class="highlighter-rouge">双门开关</code>项-&gt;按下并转动旋钮打开<code class="highlighter-rouge">B闸门</code>-&gt;按面板上的<code class="highlighter-rouge">返回</code>键回到闸门主菜单-&gt;转动旋钮至<code class="highlighter-rouge">B门移位</code>、<code class="highlighter-rouge">B门宽度</code>、<code class="highlighter-rouge">B门高度</code>进行微调。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321185137.png" alt="" /></p>
+
+<p><strong>利用双闸门对工作进行测厚</strong></p>
+
+<blockquote>
+  <p>将探头放置于工件上，在仪器屏幕上至少显示两次底面反射波，进入<code class="highlighter-rouge">闸门</code>菜单，将<code class="highlighter-rouge">双门开关</code>状态设置为<code class="highlighter-rouge">打开</code>，将<code class="highlighter-rouge">A门逻辑</code>设置为<code class="highlighter-rouge">进波门</code>，将<code class="highlighter-rouge">B门逻辑</code>设置为<code class="highlighter-rouge">失波门</code>，此时仪器上门显示的垂直距离即为实测工件的厚度。</p>
+</blockquote>
+
+<h2 id="声程位移调节">声程位移调节</h2>
+<hr />
+
+<p>声程又称检测范围，指当前屏幕显示范围能达到的最大检测范围。为了提高工作效率，仪器提供两种声程调节的方法：粗调法和微调法。粗调法主要用于在探伤工作过程中进行声程快速调节，每次调节步进值为10mm；微调法用于在仪器和探头组合校测的过程中对声程进行精确调节，微调法可以调节声程至指定的数值。</p>
+
+<blockquote>
+  <p>在探伤状态下，按一下<code class="highlighter-rouge">声程</code>按键进入声程粗调，转动旋钮可以快速调节声程的大小，増量步进为10mm。</p>
+</blockquote>
+
+<blockquote>
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">标尺</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">标尺</code>菜单-&gt;转动旋钮对<code class="highlighter-rouge">探测声程</code>进行微调。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321185354.png" alt="" /></p>
+
+<p>位移又称脉冲移位，默认值为0，用户通过增加位移数值，可将整个探伤显示区城往左平移。</p>
+
+<blockquote>
+  <p>在探伤状态下，按住<code class="highlighter-rouge">声程/位移</code>键不放，进入位移调节功能，转动旋钮可设置水平标尺的起始位移。</p>
+</blockquote>
+
+<blockquote>
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">标尺</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">标尺</code>菜单-&gt;转动旋钮对<code class="highlighter-rouge">位移调节</code>进行微调。</p>
+</blockquote>
+
+<h2 id="曲线制作">曲线制作</h2>
+<hr />
+
+<blockquote>
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">DAC</code>菜单-&gt;按下确认键进入<code class="highlighter-rouge">DAC</code>菜单-&gt;按下确认进入<code class="highlighter-rouge">DAC制作</code>即开始DAC制作。详细的DAC曲线制作过程，参阅「DAC曲线制作」。</p>
+</blockquote>
+
+<blockquote>
+  <p>在探伤状态下，按下<code class="highlighter-rouge">DAC/AVG</code>快捷键，即可快速打开曲线制作功能。</p>
+</blockquote>
+
+<p>当仪器当前探头设置为斜探头时，按下DAC/AVG快捷键，直接进入斜探头DAC曲线制作步骤，仪器下方提示“请选择测试点1”，调整闸门宽度到整个屏幕显示范围，移动探头找到最高反射波（可按下峰值记忆键辅助确定最高波）并按下确认鍵；仪器下方继续提示“请选择測试点2”，按相同的方法完成测试点2和测试点3后，按下确认鍵即可完成DAG曲线的母线制作。</p>
+
+<p>在DAC母线制作完成后，按下确认键调出主菜单，旋转旋钮至“DAC”菜单，按下确认键进入DAC菜单，旋转旋钮至“标准调用”，按下确认并旋转旋钮找到适用的标准。至此，DAGC曲线的定量线、评定线和判废线均已自动生成，DAC曲线制作完成。</p>
+
+<h2 id="响应速度调节">响应速度调节</h2>
+<hr />
+
+<p>响度速度亦称扫查速度，直接影响到对缺陷的判断及准确定位。设置正确的扫查速度对探伤结果有着至关重要的作用。</p>
+
+<blockquote>
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">收发</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">收发</code>菜单-&gt;转动旋钮对<code class="highlighter-rouge">响度速度</code>进行调节。</p>
+</blockquote>
+
+<p><strong>响度速度-“低”</strong></p>
+
+<p>在对厚度较大的工件进行探伤工作时，必须将响度速度设置为“低”，这样会避免波形的叠加带来的对缺陷的误判断。</p>
+
+<p><strong>响度速度一“中”</strong></p>
+
+<p>仪器出厂设置响度速度为“中”，适用于常见中等厚试的工件探伤。</p>
+
+<p><strong>响度速度-“高”</strong></p>
+
+<p>在对焊缝或面积较大的薄工件探伤中，为了获取较快的扫查速度，必须将响度速度设置为“高”</p>
+
+<h2 id="抑制调节">抑制调节</h2>
+<hr />
+
+<p>抑制的作用是抑制屏幕上幅度较低或认为不必要的杂波反射波，使之不予显示，从而使整个屏幕显示的波形清晰。</p>
+
+<p>使用抑制时，仪器的垂直线性和动态范围将被改变。抑制作用越大，仪器动态范围越小，从而在实际探伤中有容易漏掉小缺陷的危险。因此，除非十分必要时，一般不建议使用抑制。</p>
+
+<blockquote>
+  <p>在调节状态下，转动旋钮至<code class="highlighter-rouge">收发</code>菜单-&gt;按下旋钮进入<code class="highlighter-rouge">收发</code>菜单-&gt;转动旋钮对<code class="highlighter-rouge">接收抑制</code>进行调节，抑制百分比越高，被抑制的回波越多。</p>
+</blockquote>
+
+<h2 id="直探头校准">直探头校准</h2>
+<hr />
+
+<p>本节主要介绍使用“自动校测”法完成直探头的校测</p>
+
+<ul>
+  <li>将仪器接上探头并开机，将探头放置在CSK-1A试块上并保证耦合良好。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321185526.png" alt="" /></p>
+
+<ul>
+  <li>按住仪器键盘面板上的“自动增益”鍵不放，进入快速校测功能。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321185551.png" alt="" /></p>
+
+<ul>
+  <li>依次确认“探头类型”为“直探头”、“第一参考点”为100m “第二参考点”为“200m。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321185621.png" alt="" /></p>
+
+<p><img src="http://dasndt.com/ossimg/20200321185643.png" alt="" /></p>
+
+<p><img src="http://dasndt.com/ossimg/20200321185712.png" alt="" /></p>
+
+<p><img src="http://dasndt.com/ossimg/20200321185738.png" alt="" /></p>
+
+<h2 id="avg曲线制作">AVG曲线制作</h2>
+<hr />
+
+<p>本节主要介绍如何使用“平底孔”法和“大平底”法完成直探头AVG曲线的制作，支持同时显示四条AVG曲线。</p>
+
+<p><strong>平底孔AVG曲线</strong></p>
+
+<blockquote>
+  <p>将直探头放置于CS-1试块上，将仪器<code class="highlighter-rouge">探测声程</code>设置为500mm左右，在保证耦合良好的前提下，来回移动探头找到225mm的平底反射波，提高<code class="highlighter-rouge">増益</code>并来回移动探头，此时225mm平底反射波前会出现深度为200mm的人工缺陷波，来回移动探头，找到波幅最高的反射波。</p>
+
+  <p>在探仿状态下，调出菜单-&gt;转动旋钮至<code class="highlighter-rouge">AVG菜单</code>&gt;进入<code class="highlighter-rouge">AVG菜单</code>-&gt;转动旋钮至<code class="highlighter-rouge">基准孔径</code>-&gt;按下确认输入基准孔径为<code class="highlighter-rouge">02.0mm</code>-&gt;转动旋钮至<code class="highlighter-rouge">AVG制作</code>栏并确认按仪器面板上的<code class="highlighter-rouge">闸门</code>键并左右移动闸门使闻门单独罩住200m处的人工缺陷反射波，此时该缺陷波上会有红色的十字标记-&gt;按下旋钮确认标记点并生成AVG曲线。通过输入AVG1、AVG2、AVG3可同时生成其余三条曲线</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321185843.png" alt="" /></p>
+
+<p><img src="http://dasndt.com/ossimg/20200321185941.png" alt="" /></p>
+
+<p><img src="http://dasndt.com/ossimg/20200321190016.png" alt="" /></p>
+
+<p><strong>大平底AVG曲线</strong></p>
+
+<blockquote>
+  <p>在探伤状态下，将直探头放置于工件上，将仪器<code class="highlighter-rouge">探测声程</code>设置为2倍工件厚度左右，在保证耦合良好的前提下，来回移动探头找到工件的平底反射波，提高<code class="highlighter-rouge">增益</code>并来回移动探头找到最高反射波使波高达到50%。</p>
+
+  <p>调出菜单-&gt;转动旋钮至<code class="highlighter-rouge">AVG菜单</code>-&gt;进入<code class="highlighter-rouge">AVG菜单</code>-&gt;转动旋钮至<code class="highlighter-rouge">AVG类型</code>-&gt;将AVG类型由<code class="highlighter-rouge">平底孔</code>切換为<code class="highlighter-rouge">大平底</code>-&gt;转动旋钮至<code class="highlighter-rouge">基准孔径</code>-&gt;输入基准孔径（假设值）-&gt;转动旋钮至<code class="highlighter-rouge">AVG制作</code>栏并确认-&gt;按仪器面板上的<code class="highlighter-rouge">闸门</code>键并左右移动间门使间门单独罩住底面反射波，此时该缺陷波上会有红色的十字标记-&gt;按下确认标记点并生成AVG曲线。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321190132.png" alt="" /></p>
+
+<h2 id="斜探头校准">斜探头校准</h2>
+<hr />
+
+<p>本节主要介紹如何使用自动校测法完成斜探头的校准。</p>
+
+<p>探头的自动校测主包括外探头零点校测、斜探头前沿校测、斜探头K值校測。</p>
+
+<ul>
+  <li>将仪器接上斜探头并开机，将探头放置在CSK-1A试块上井保证耦合良好。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190200.png" alt="" /></p>
+
+<ul>
+  <li>按住仪器键盘面板上的<code class="highlighter-rouge">自动增益</code>鍵不放，进入快速校测功能。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190225.png" alt="" /></p>
+
+<ul>
+  <li>依次确认<code class="highlighter-rouge">探头类型</code>为<code class="highlighter-rouge">斜探头</code>、<code class="highlighter-rouge">第一参考点</code>为<code class="highlighter-rouge">50mm</code>、<code class="highlighter-rouge">第二参考点</code>为<code class="highlighter-rouge">100mm</code>。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190247.png" alt="" /></p>
+
+<p><img src="http://dasndt.com/ossimg/20200321190310.png" alt="" /></p>
+
+<ul>
+  <li>用直尺量出探头前端到试块前端的距离，输入前沿（100-L)mm</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190332.png" alt="" /></p>
+
+<ul>
+  <li>输入基准孔径φ1.5mn，基准孔深15mm，来回移动探头找到φ1.5m的基准孔并最高反射波提高到80%左右波高。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190355.png" alt="" /></p>
+
+<ul>
+  <li>确认选择最高波，此时仪器会自动计算出探头K值，并跳出<code class="highlighter-rouge">确认</code>询问项，如需重测，转动旋钮至<code class="highlighter-rouge">重测</code>询问项，按下旋钮重测，仪器将会从第一个步骤重新校测；如需重测K值，转动旋钮至<code class="highlighter-rouge">重测K值</code>询问项并按下旋钮，仪器将重测K值；如无须重测，在<code class="highlighter-rouge">确认</code>询问项按下确认，斜探头自动校测完成。</li>
+</ul>
+
+<h2 id="dac曲线制作">DAC曲线制作</h2>
+<hr />
+
+<p>缺陷波高与缺陷大小及距离有关，大小相同的缺陷由于距离不同，回波高度也不相同。描述某一确定反射体回波高度随距离变化的关系曲线称为距离-波幅曲线（DAC曲线）。</p>
+
+<p>本节中以RB-2试块为例，介绍如何利用试块制作DAC曲线。</p>
+
+<p><img src="http://dasndt.com/ossimg/20200321190424.png" alt="" /></p>
+
+<blockquote>
+  <p>将直探头放置于RB-2试块上，在保证斜探头已经校准并在耦合良好的前大提下，按下<code class="highlighter-rouge">DAC/AVG</code>快捷键”开始制作DAC，此时仪器底部显示<code class="highlighter-rouge">请选择第一测试点</code>，来回移动探头找到深度为10mm人工缺陷反射波，提高<code class="highlighter-rouge">增益</code>并来回移动探头，确保最高反射波达到80%波高，此时波峰处有十字标记，<code class="highlighter-rouge">确认</code>选择第一测试点在完成第一测试点后，仪器底部显示<code class="highlighter-rouge">请选择第二测试点</code>将探头对准RB-2试块上深度为30mm的人工缺陷孔，来回移动探头找到最高反射波，按下闸门键并转动旋钮移动闸门罩住该反射波，当波峰有十字标记的时候，<code class="highlighter-rouge">确认</code>选择第二测试点；同样的方法选择第三测试点和第四测试点（可选）。当所有的测试点选择完成后仪器底部询问<code class="highlighter-rouge">是否自动生成DAC曲线</code>，请选择<code class="highlighter-rouge">是</code>，仪器自动生成DAC曲线。</p>
+</blockquote>
+
+<blockquote>
+  <p>在<code class="highlighter-rouge">DAC</code>菜单中，可以手动输入RL，SL，EL值来自动生成定量线，评定线和判废线（如在DAC制作时选译了4条曲线的DAC，则由试块上的人工缺陷生成的母线也会同时显示）。</p>
+</blockquote>
+
+<blockquote>
+  <p>在<code class="highlighter-rouge">DAC</code>菜单中，还可以在<code class="highlighter-rouge">标准调用</code>中：自由选择调用探伤标准此时仪器会自动赋予定量线、评定线、判废线偏移量数值，DAC曲线自动生成。</p>
+</blockquote>
+
+<ul>
+  <li>手动输入RL、SL、EL偏移量后生成的DAC曲线。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190451.png" alt="" /></p>
+
+<ul>
+  <li>启用<code class="highlighter-rouge">标准调用</code>功能后自动生成的DAC曲线，此时屏幕上显示标准号。</li>
+</ul>
+
+<p><img src="http://dasndt.com/ossimg/20200321190512.png" alt="" /></p>
+
+<h2 id="标准调用">标准调用</h2>
+<hr />
+
+<p>仪器默认内置10个行业探伤标准。</p>
+
+<p>1、GB/T11345-1989;</p>
+
+<p>2、GB/T15830-2008;</p>
+
+<p>3、JB/17602-1994;</p>
+
+<p>4、JB/19212-2010;</p>
+
+<p>5、JB/T4730-2005;</p>
+
+<p>6、SY/T4065-1992</p>
+
+<p>7、CB/T3559-1994;</p>
+
+<p>8、DL/T820-2002;</p>
+
+<p>9、DL/T542-1994;</p>
+
+<p>10、JG/T203-2007。</p>
+
+<p>根据相关行业标准，不同的工件厚度与对比试块类型，与其相对应的RL、EL、SL偏移量均不相同。</p>
+
+<blockquote>
+  <p>在<code class="highlighter-rouge">DAC</code>菜单中，选中<code class="highlighter-rouge">试块类型</code>子菜单，旋动旋钮切换试块类型在<code class="highlighter-rouge">收发</code>菜单中，选中<code class="highlighter-rouge">工件厚度</code>子菜单，设置正确的工件厚度。当”<code class="highlighter-rouge">试块类型</code>与<code class="highlighter-rouge">工件厚度</code>均设置完成，屏幕下方的RL、EL、SL偏移量均自动设置为与标准相对应的值。</p>
+</blockquote>
+
+<h2 id="aws-d11焊缝等级评估模式">AWS D1.1焊缝等级评估模式</h2>
+<hr />
+
+<p>本节主要介绍如何使用AWSD1.1评估模式对焊鏠等级进行评估并提供一个ANSD1等级，该模式使用AS指定的以下4个变量，包括：</p>
+
+<ul>
+  <li>
+    <p><strong>A等级</strong>一将一个A扫描回波的波峰（来自被检焊鏠反射体）定位在等于基准波幅的高度（介于全屏波幅的10%与90%之间）处所需的增益（以dB表示）。</p>
+  </li>
+  <li>
+    <p><strong>B基准</strong>-将一个A扫描回波的波峰（来自参考试块）定位在用户所设定的波幅高度（介于满屏高度的10%与90%之间）处所需的增益（以dB表示）。</p>
+  </li>
+  <li>
+    <p><strong>C衰减</strong>一使用以下方程式（单位为英寸），通过从到不连续点的声程中减去1英寸来确定：C=（SA-1）*2。此变量可以补偿材料衰减（沿到达不连续点的声程）带来的提失。</p>
+  </li>
+  <li>
+    <p><strong>D D1.1等级</strong>ー根据以下AWS公式计算得出：D=A-B-C。</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>在保证探头设置及各项参数调节正确的前提下按下确认键词取主菜单、旋转旋钮至<code class="highlighter-rouge">DAC</code>菜单并按确定进入<code class="highlighter-rouge">DAC</code>菜单，选取<code class="highlighter-rouge">标准调用</code>项，旋转旋钮至<code class="highlighter-rouge">AWSD1.1</code>项。</p>
+</blockquote>
+
+<blockquote>
+  <p>按下面板上的<code class="highlighter-rouge">DAC</code>曲线坡钮，在试块上选取参考点，并在仪器上找到最高反射波，按下<code class="highlighter-rouge">确认</code>键，此时仪器自动将参考点最高反射波波高波高设置为满屏的50%，当时屏幕下方即显示B基准值（以dB表示）。在进行ANWS焊缝等级评估时，只需要保证缺陷反射波在门宽度范围内仪器实时显示A、B、C、D值。</p>
+</blockquote>
+
+<h2 id="伤波记录">伤波记录</h2>
+<hr />
+
+<p>本仪器采用探伤原始数据一鍵存储，当前通道的设置参数以及波形图均可一键存储。</p>
+
+<blockquote>
+  <p>探伤状态下，如需对屏幕上显示的仿波进行存储操作，可按下<code class="highlighter-rouge">记录</code>键，仪器弹出记录菜单，输入文件名称，即可完成对伤波的记录。</p>
+</blockquote>
+
+<blockquote>
+  <p>在按下<code class="highlighter-rouge">记录</code>后不输入文件名称，仪器测自动按时间顺序将当前屏幕参数及波形依次存储。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321190639.png" alt="" /></p>
+
+<h2 id="记录调取与操作">记录调取与操作</h2>
+<hr />
+
+<p>本仪器内置存储器可存储多达1000幅伤波记录，旋钮转动浏览己存通道参数及波形图，并可将探伤参数复制到当前通道。</p>
+
+<p><img src="http://dasndt.com/ossimg/20200321190711.png" alt="" /></p>
+
+<blockquote>
+  <p>探伤状态下，如需调取已存储波形图并进行操作，可按下<code class="highlighter-rouge">回放</code>键，仪器自动切换到记录浏览模式。</p>
+</blockquote>
+
+<blockquote>
+  <p>在记录浏览模式下，如需要删除当前屏幕上显示的伤波记录，按下<code class="highlighter-rouge">确认</code>键，屏幕下方出现<code class="highlighter-rouge">是否删除当前波形文件？</code>,转动旋钮切换到<code class="highlighter-rouge">是</code>，确认则删除，反之亦然。</p>
+</blockquote>
+
+<blockquote>
+  <p>在记录浏览模式下，如需将当前屏幕显示伤波探伤参数复制到当前探伤通道，长按确认键不放，弹出<code class="highlighter-rouge">记录</code>菜单，进入<code class="highlighter-rouge">记录</code>菜单，选择参数复制。</p>
+</blockquote>
+
+<blockquote>
+  <p>在任何状态下，长按“返回”键不放，切换到探伤状态。</p>
+</blockquote>
+
+<p><img src="http://dasndt.com/ossimg/20200321190729.png" alt="" /></p>
+
+<h2 id="蜂鸣报警与闸门展宽">蜂鸣报警与闸门展宽</h2>
+<hr />
+
+<p><img src="http://dasndt.com/ossimg/20200321190757.png" alt="" /></p>
+
+<h2 id="曲面修正">曲面修正</h2>
+<hr />
+
+<h2 id="射频检测">射频检测</h2>
+<hr />
+
+<p><img src="http://dasndt.com/ossimg/20200321190841.png" alt="" /></p>
+
+<h2 id="波形填充">波形填充</h2>
+<hr />
+
+<p><img src="http://dasndt.com/ossimg/20200321190921.png" alt="" /></p>
+
+<h2 id="峰值记忆">峰值记忆</h2>
+
+<h2 id="系统设置">系统设置</h2>
+:ET

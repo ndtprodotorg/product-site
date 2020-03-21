@@ -123,6 +123,35 @@ body {
     float: left;
     text-align: left;
 }
+.manualLeft img {
+    width: 80%;
+    display: block;
+    margin:1em auto;
+}
+blockquote {
+    margin: 1em 2em;
+    padding: 2px 5px;
+    border-left: 4px solid green;
+    background-color: #ddd;
+}
+.highlighter-rouge {
+    font-size: 14px;
+    color: #fff;
+    background-color: #222;
+    padding:2px;
+    border-radius: 4px;
+}
+div>.highlighter-rouge {
+    margin: 1em 3em;
+    border:1px solid #666;
+    color: #000;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 0;
+}
+div>.highlighter-rouge code{
+    white-space: pre-wrap;
+}
 .homeContent {
     text-align: left;
     margin: 3em 2em;
@@ -226,5 +255,76 @@ body {
 .product-home-nav .current {
     border-bottom: 4px solid #000;
     opacity: 0.5;
+}
+#markdown-toc {
+    width:25%;
+    display: block;
+    float: right;
+    margin: 2em 2em;
+    border: 1px solid #888;
+    padding: 1em 1em;
+    list-style-type: none;
+}
+#markdown-toc::before {
+    content:"目录";
+    font-size:22px;
+}
+#markdown-toc>li {
+    text-align:left;
+    padding-left:0;
+}
+#markdown-toc>li>a{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
+#markdown-toc li ol {
+    margin: 1em auto;
+    text-align: left;
+    padding: 0 0 0 1em; 
+    color: #888;
+    list-style-type: disc;
+}
+#markdown-toc li ol li{
+    margin: 0.5em auto;
+}
+#markdown-toc li ol li a {
+    color:#888;
+    line-height: 1.2em;
+}
+#markdown-toc li ol li a:hover {
+    color:#000;
+}
+#markdown-toc li ol li a:active {
+    color:#000;
+    text-decoration: underline;
+}
+.postContainer {
+    padding: 1em 0;
+    text-align: center;
+}
+.postContainer .current a{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.postRight {
+    width: 30%;
+    float: right;
+    text-align: left;
+    border-left: 1px solid #eee;
+}
+.postRight ul{
+    list-style-type: none;
+}
+.postRight li a{
+    color: #777;
+    font-size: 14px;
+    line-height: 20px;
+}
+.postLeft{
+    width: 69%;
+    float: left;
+    text-align: left;
 }
 
