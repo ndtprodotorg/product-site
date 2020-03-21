@@ -1,0 +1,34 @@
+.product-home-nav {
+    margin: 10% -15%;
+}
+.product-home-nav .slogan{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.product-home-nav h2 {
+    font: "微软雅黑","Microsoft YaHei";
+    font-weight: 100;
+    margin:0 auto;
+    line-height: 3em;
+}
+.product-home-nav ul{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    margin:5% -5%;
+}
+.product-home-nav li{
+    display: inline-block;
+    text-align:center;
+    width:45%;
+    margin:0 auto;
+}
+.product-home-nav img{
+    width:100%;
+    height:auto;
+}
+.product-home-nav .current {
+    border-bottom: 4px solid #000;
+    opacity: 0.5;
+}
