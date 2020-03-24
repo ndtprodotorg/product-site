@@ -2,6 +2,9 @@
     padding: 1em 0;
     text-align: center;
 }
+.postContainer p{
+    line-height: 1.5em;
+}
 .postContainer .current a{
     color: #000;
     border-bottom: 1px solid #000;
@@ -24,4 +27,49 @@
     width: 69%;
     float: left;
     text-align: left;
+}
+.postLeft img{
+    width:100%;
+    margin: 2em auto;
+}
+.techpost {
+    padding: 2em 4%;
+    vertical-align: top;
+    background-color: #f3f3f3;
+}
+.techpost ul {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0;
+    padding: 0 auto;
+  }
+.techpost ul li {
+    counter-increment: my-awesome-counter;
+    width: 22%;
+    padding:0 1em;
+  }
+.techpost .excerpt {
+    color:#0071c5;
+    font-size: 12px;
+}
+.techpost h2 {
+    color: #0071c5;
+    font-size: 24px;
+    font-weight: 400;
+}
+.techpost p {
+    clear: both;
+    color: #555;
+    line-height: 1.2em;
+}
+.techpost h2:hover{
+    color:#00aeef;
+}
+.techpost a:hover{
+    color: #00aeef;
+}
+.singlepost-title{
+    padding: 0.5em 0;
 }

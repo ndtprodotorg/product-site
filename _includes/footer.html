@@ -1,5 +1,24 @@
 <footer>
-    <div class="footer">
-        <h3>0513-85347629-815</h3>
+        <div class="footlogo">
+           <a href="{{site.baseurl}}/" alt=“中友科技”>{% include svg.html %}</a>
+        </div>
+        <div class="footerrecent">
+            <h2>最新发布</h2>
+            <ul>
+                {% for post in site.categories.tech | limit:5%}
+                    <li>
+                        {{post.title}}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="telephone">
+            <h2>联系方式</h2>
+            <h3>0513-85347629-816</h3>
+            <p>周一至周五：<br />上午9:00~下午6:00</p>
+        </div>
+    <div class="footinfo">
+        {% include footnav.html %}
     </div>
+
 </footer>

@@ -8,4 +8,4 @@
 {% include_relative product-home-nav.css %}
 {% include_relative manual-toc.css %}
 {% include_relative post.css %}
-
+{% include_relative footer.css %}

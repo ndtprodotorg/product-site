@@ -1,0 +1,84 @@
+footer {
+    clear: both;
+    position: absolute;
+    width:100%;
+    height: 300px;
+    bottom:0;
+    color: #555;
+    background-color:#ddd;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 60px;
+    grid-template-areas: 
+    "footerlogo footerrecent telephone"
+    "footerinfo footerinfo footerinfo";
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+svg {
+    height: 80px;
+    fill: #555;
+    margin-top: 2em;
+}
+
+.footlogo {
+    grid-area: footerlogo;
+    margin: 3em 8em;
+    border-right: 1px solid #777;
+
+}
+.footerrecent{
+    text-align: left;
+    grid-area: footerrecent;
+    margin: 1em 3em;
+}
+
+.footerrecent ul{
+    text-align: left;
+    list-style-type: none;
+    list-style-position: inside;
+    line-height: 1.5em;
+    padding: 0 0 0 0 ;
+}
+.telephone {
+    text-align: left;
+    grid-area: telephone;
+    margin: 1em 3em;
+}
+.footinfo {
+    background-color:#000;
+    grid-area: footerinfo;
+    text-align: center;
+    height:60px;
+    color:#fff;
+}
+.footinfo ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footinfo ul li {
+    display: inline-block;
+    font-size: 14px;
+
+}
+.footinfo ul li small {
+    font-size: 14px;
+    color: #777;
+    padding: 0 30px;
+}
+.footinfo ul li a {
+    color: #777;
+    padding: 0 30px;
+    border-left: 1px solid #777;
+}
+.footinfo ul li .foothomelogo {
+    border: none;
+}
+.footinfo {
+    padding: 2em auto;
+}

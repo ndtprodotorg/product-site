@@ -1,27 +1,28 @@
 ---
 layout: default
 ---
+<div class="container">
+    <div class="product-nav">
+        <ul>
+            {% for product in site.pages%}
+                {% if product.category == 'products' %}
+                <a href="{{site.baseurl}}{{product.url}}">
+                <li class="{% if page.url contains product.model %}current{% endif %}">
+                    <img src="{{product.featureImage}}" alt="">
+                </li>
+            </a>
+                {% endif %}
+            {% endfor %}
+        </ul>   
+    </div>
 
-<div class="product-nav">
-    <ul>
-        {% for product in site.pages%}
-            {% if product.category == 'products' %}
-            <a href="{{site.baseurl}}{{product.url}}">
-            <li class="{% if page.url contains product.model %}current{% endif %}">
-                <img src="{{product.featureImage}}" alt="">
-            </li>
-        </a>
-            {% endif %}
-        {% endfor %}
-    </ul>   
-</div>
 
-
-<div class="featureproduct {{page.model}}">
-    <h1>{{page.model}}</h1>
-    <h2>{{page.modelname}}</h2>
-    <img src="{{page.featureImage}}" alt="">
-</div>
-<div class="homeContent">
-    {{page.content | markdownify}}
+    <div class="featureproduct {{page.model}}">
+        <h1>{{page.model}}</h1>
+        <h2>{{page.modelname}}</h2>
+        <img src="{{page.featureImage}}" alt="">
+    </div>
+    <div class="homeContent">
+        {{page.content | markdownify}}
+    </div>
 </div>

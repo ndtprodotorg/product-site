@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<div class="product-home-nav">
-    <p class="slogan">功能丰富 超轻便携</p>
-    <h2>全新设计的超声探伤仪</h2>
-    <ul>
-        {% for product in site.pages%}
-            {% if product.category == 'products' %}
-            <a href="{{site.baseurl}}{{product.url}}">
-            <li class="{% if page.url contains product.model %}current{% endif %}">
-                <img src="{{product.featureImage}}" alt="">
-            </li>
-        </a>
-            {% endif %}
-        {% endfor %}
-    </ul>   
+<div class="container">
+    <div class="product-home-nav">
+        <p class="slogan">功能丰富 超轻便携</p>
+        <h2>全新设计的超声探伤仪</h2>
+        <ul>
+            {% for product in site.pages%}
+                {% if product.category == 'products' %}
+                <a href="{{site.baseurl}}{{product.url}}">
+                <li class="{% if page.url contains product.model %}current{% endif %}">
+                    <img src="{{product.featureImage}}" alt="">
+                </li>
+            </a>
+                {% endif %}
+            {% endfor %}
+        </ul>   
+    </div>
 </div>

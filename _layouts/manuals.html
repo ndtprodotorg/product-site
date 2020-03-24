@@ -2,20 +2,21 @@
 layout: default
 ---
 
-<div class="manualContainer">
-    <div class="manualLeft">
-        {{content}}
+<div class="container">
+    <div class="manualContainer">
+        <div class="manualLeft">
+            {{content}}
+        </div>
+        <div class="manualRight">
+            <ul>
+                {% for manual in site.pages %}
+                {% if manual.category =='manual'%}
+                <li class="{% if page.url contains manual.model %}current{% endif %}">
+                    <a href="{{site.baseurl}}{{manual.url}}">{{manual.title}}</a>
+                </li>
+                    {% endif %}
+                    {% endfor %}
+            </ul>
+        </div>
     </div>
-    <div class="manualRight">
-        <ul>
-            {% for manual in site.pages %}
-            {% if manual.category =='manual'%}
-            <li class="{% if page.url contains manual.model %}current{% endif %}">
-                <a href="{{site.baseurl}}{{manual.url}}">{{manual.title}}</a>
-            </li>
-                {% endif %}
-                {% endfor %}
-        </ul>
-    </div>
-
 </div>

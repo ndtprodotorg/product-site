@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="container">
+    <ul style="text-align:left">
+        {% for mark in site.categories.mark %}
+        <li>
+            {{ mark.content }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

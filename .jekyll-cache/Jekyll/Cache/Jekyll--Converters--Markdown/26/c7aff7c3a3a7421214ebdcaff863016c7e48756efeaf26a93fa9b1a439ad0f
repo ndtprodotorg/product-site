@@ -1,0 +1,105 @@
+I"a<h1 id="功能特征">功能特征</h1>
+<hr />
+<ul>
+  <li>手持便携式设计，牢固，密封性好，抗干扰能力强，尤其适用于现场探伤；</li>
+  <li>国内首家采用高清显示屏，可根据探伤环境选择色彩方案、亮度可自由设定；</li>
+  <li>一键呼出菜单功能，在确保操作简便的同时，也确保探伤界面的简洁；</li>
+  <li>仪器采用高品质、长寿命旋钮，只需大拇指转动旋钮即可完成所有的工作，真正意义上实现了仪器的便携性和易操作性；</li>
+  <li>高品质、低功耗的全数字电路系统的稳定性能，确保探伤工作顺利可靠完成；</li>
+  <li>超高采样频率，使回波显示更逼真、定位更准确，集超声检测、超声测厚功能于一机；</li>
+  <li>高精度定量、定位，完美解决远距离定位误差实时全检波、正半波、负半波和射频显示；</li>
+  <li>波形自动识别功能，可将多次反射波以不同的波形颜色进行区分，极大提高工作效率；</li>
+  <li>可自由调节波形为空心波显示或实心波显示；内置大容量锂电池，一次充电可工作10小时以上；</li>
+  <li>实用性超强的一键间门展宽功能，只需按一个键即可将当前间门宽度以内的内容放大至整个屏幕显示，极大程度上降低漏检率，提高探伤结果的准确性；</li>
+  <li>优良的宽频带放大器，并且能自动校正。具有良好的近场区分辨能力；</li>
+  <li>一键自动校测功能，将传统繁琐的仪器校测工作简化为一键即可完成；</li>
+  <li>内置多国家、多行业探伤标准，距离波幅曲线按照标准自动生成，探伤结果自动分级；</li>
+  <li>距离波幅曲线自动选点，可自由选择任意一点进行删除和修正；</li>
+  <li>灵活的杂波抑制调节功能，提高探伤结果的准确度；近场盲区小，可进行薄板及薄壁小径管的探伤工作；</li>
+  <li>高速通用USB传输探伤数据至计算机，随机自带的报告数据库软件，极大地方便了对探伤报告的批量检索；</li>
+  <li>内置20个探伤参数通道，采用先进存储技术，即使意外断电也可永久存储通道参数</li>
+  <li>可存储500个探伤回波、曲线和数据；</li>
+</ul>
+
+<h1 id="技术参数表">技术参数表</h1>
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">项目</th>
+      <th style="text-align: left">参数</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">显示屏</td>
+      <td style="text-align: left">3.8英寸</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">显示面积</td>
+      <td style="text-align: left">78.5mm X 60.0mm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">接口型式</td>
+      <td style="text-align: left">LEMO-00</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">增益</td>
+      <td style="text-align: left">0～110dB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">增益步距</td>
+      <td style="text-align: left">0.1、0.5、1、2、6、12、20dB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">闸门</td>
+      <td style="text-align: left">双闸门</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">检测范围</td>
+      <td style="text-align: left">1mm~9999mm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">水平线性误差</td>
+      <td style="text-align: left">&lt; 0.1%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">垂直线性误差</td>
+      <td style="text-align: left">&lt; 3.0%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">分辨率</td>
+      <td style="text-align: left">&gt; 30dB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">动态范围</td>
+      <td style="text-align: left">&gt; 32dB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">灵敏度余量</td>
+      <td style="text-align: left">&gt; 50dB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">声速范围</td>
+      <td style="text-align: left">1000m/s~9999m/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">探头类型</td>
+      <td style="text-align: left">直探头、斜探头、双晶探头</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">检波方式</td>
+      <td style="text-align: left">正半波、负半波、全波、射频</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">外形尺寸</td>
+      <td style="text-align: left">168mm X 115mm X 54mm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">重量</td>
+      <td style="text-align: left">560g</td>
+    </tr>
+  </tbody>
+</table>
+:ET

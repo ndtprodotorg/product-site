@@ -2,21 +2,22 @@
 layout: default
 ---
 
-
-<div class="postContainer">
-    <div class="postLeft">
-        {{content}}
+<div class="container">
+    <div class="postContainer">
+        <div class="postLeft">
+            <h1 class="singlepost-title">{{page.title}}</h1>
+            {{content}}
+        </div>
+        <div class="postRight">
+            <ul>
+                {% for post in site.posts %}
+                {% if post.category =='tech'%}
+                <li class="{% if post.url contains post.title %}current{% endif %}">
+                    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+                </li>
+                    {% endif %}
+                    {% endfor %}
+            </ul>
+        </div>
     </div>
-    <div class="postRight">
-        <ul>
-            {% for post in site.posts %}
-            {% if post.category =='tech'%}
-            <li class="{% if post.url contains post.title %}current{% endif %}">
-                <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-            </li>
-                {% endif %}
-                {% endfor %}
-        </ul>
-    </div>
-
 </div>
